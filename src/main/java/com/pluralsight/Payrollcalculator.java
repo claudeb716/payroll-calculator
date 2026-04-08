@@ -15,8 +15,8 @@ public class Payrollcalculator {
         double payRate = myScanner.nextDouble();
         double grossPay = payRate * hoursWorked;
 
-        System.out.println("Employee ID: " + idName + " and Your Gross Pay Will be: " + grossPay);
-
-myScanner.close();
+        System.out.println("Employee ID: " + idName);
+        System.out.println("Gross Pay Will be: $" + String.format("%.2f", grossPay));
     }
+
 }
